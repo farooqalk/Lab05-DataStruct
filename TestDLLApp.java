@@ -25,26 +25,14 @@ class TestDLLApp {
 		DLL.insertLast(9);
 		DLL.insertLast(33);
 		DLL.insertLast(55);
-
-		System.out.println("The list from head is ");
 		DLL.printForwards();
-		System.out.println("The list from tail is ");
 		DLL.printBackwards();
-
-		System.out.println("Deleting First Node.");
 		DLL.deleteFirstNode();
-		//System.out.println("The list from head is ");
-		//DLL.printForwards();
-		System.out.println("Deleting Last Node.");
 		DLL.deleteLastNode();
-		//System.out.println("The list from tail is ");
-		//DLL.printBackwards();
 		DLL.searchAndDelete(9);
-		System.out.println("The list from head is ");
 		DLL.printForwards();
 		DLL.insertAfter(22, 69);
 		DLL.insertAfter(33, 88);
-		System.out.println("The list from head is ");
 		DLL.printForwards();
 
 	} // end of main() method
